@@ -5,6 +5,7 @@ from cocos2d import *
 from game.constant import *
 from v_base import BaseView
 from effect import Effect
+from game import config
 
 
 class OptionsView(BaseView):
@@ -33,8 +34,8 @@ class OptionsView(BaseView):
                 CCMenuItemFont.create("On"),
                 CCMenuItemFont.create("Off"))
         
-        # selectId = Config.sharedConfig().getAudioState()? 0 : 1
-        # toggle.setSelectedIndex(selectId)
+        selectId = 0 if config.isAudioOn else 1
+        toggle.setSelectedIndex(selectId)
         
         backLb = CCLabelBMFont.create("Go Back", s_font)
         goBack = CCMenuItemLabel.create(backLb,
@@ -57,17 +58,13 @@ class OptionsView(BaseView):
         goBack.setPosition1(pos)
         
         
-    def setOptions(self):
-        # tmpSound = Config.sharedConfig().getAudioState()
-        # Config.sharedConfig().updateAudioState(!tmpSound)
-        
-        # if (Config.sharedConfig().getAudioState()) {
-        #     SimpleAudioEngine.sharedEngine().resumeAllEffects()
-        #     SimpleAudioEngine.sharedEngine().resumeBackgroundMusic()
-        # }else{
-        #     SimpleAudioEngine.sharedEngine().pauseAllEffects()
-        #     SimpleAudioEngine.sharedEngine().pauseBackgroundMusic()
-        # }
-        pass
+    def setOptions(self, sender):
+        config.isAudioOn = not config.isAudioOn
+        if config.isAudioOn:
+            self.ctl.audio.resumeAllEffects()
+            self.ctl.audio.resumeBackgroundMusic()
+        else:
+            self.ctl.audio.pauseAllEffects()
+            self.ctl.audio.pauseBackgroundMusic()
     
 

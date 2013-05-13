@@ -24,6 +24,7 @@ from cc cimport (\
     misc_nodes,
     tilemap,
     support,
+    cocosDenshion,
 )
 
 cimport cython.operator

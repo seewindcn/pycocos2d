@@ -4,23 +4,19 @@ from cocos2d import *
 from game.constant import *
 from v_base import BaseView
 from effect import Effect
+from game import config
 
 
 class StartView(BaseView):
     def onButtonEffect(self):
-        # if (Config.sharedConfig().getAudioState()) {
-        #      SimpleAudioEngine.sharedEngine().playEffect(s_buttonEffect);
-        # }
-        pass
+        if config.isAudioOn:
+             self.ctl.audio.playEffect(s_buttonEffect);
 
     def stop(self):
         self.ctl.unschedule(self.cb_update)
 
     def on_newGame(self):
         self.ctl.view_game()
-        # CCScene *scene = CCScene.create();
-        # scene.addChild(GameLayer.create());
-        # CCDirector.sharedDirector().replaceScene(CCTransitionFade.create(1.2, scene));
 
 
     def on_flareEffect(self, node):
@@ -114,9 +110,8 @@ class StartView(BaseView):
         self.m_ship.runAction(CCMoveBy.create(2, ccp(CCRANDOM_0_1() * winSize.width, position.y + winSize.height + 100)))
 
         
-        # if (Config.sharedConfig().getAudioState()) {
-        #     SimpleAudioEngine.sharedEngine().setBackgroundMusicVolume(0.7)
-        #     SimpleAudioEngine.sharedEngine().playBackgroundMusic(s_mainMainMusic, true)
+        if config.isAudioOn:
+            self.ctl.audio.setBackgroundMusicVolume(0.7)
+            self.ctl.audio.playBackgroundMusic(s_mainMainMusic, True)
 
-        # }
 

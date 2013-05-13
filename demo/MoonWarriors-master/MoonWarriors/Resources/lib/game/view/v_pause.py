@@ -53,7 +53,7 @@ class PauseLayer(object):
         if rect.containsPoint(touch.getLocation()):
             self.stop()
             self.ctl.director.resume()
-            # SimpleAudioEngine.sharedEngine().resumeAllEffects()
-            # SimpleAudioEngine.sharedEngine().resumeBackgroundMusic()
+            self.ctl.audio.resumeAllEffects()
+            self.ctl.audio.resumeBackgroundMusic()
             self.layer.removeFromParent()
         return True

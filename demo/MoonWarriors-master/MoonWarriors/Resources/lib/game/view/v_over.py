@@ -46,7 +46,7 @@ class GameOverView(BaseView):
         lb.setColor(ccc3(250, 179, 0))
         self.addChild(lb, 10)
         
-        # CocosDenshion.SimpleAudioEngine.sharedEngine().playBackgroundMusic(s_mainMainMusic, true)
+        self.ctl.audio.playBackgroundMusic(s_mainMainMusic, True)
         
     def playAgain(self, sender):
         self.ctl.view_game()

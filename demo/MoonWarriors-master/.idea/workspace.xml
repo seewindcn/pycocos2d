@@ -21,7 +21,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_IPAD_DLXJV7VBF182" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_IPAD_DLXJV9RMF185" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ceval.c" pinned="false" current="false" current-in-tab="false">
@@ -63,8 +63,10 @@
       <file leaf-file-name="AppDelegate.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="20" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#153#177#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,19 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/ios/main.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.8627451">
+            <state line="16" column="67" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.4117647">
               <folding />
             </state>
           </provider>
@@ -172,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,19 +271,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../res/lib/python2.7" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../res/lib/python2.7" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="MoonWarriors" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.MoonWarriors">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="MoonWarriors" TARGET_NAME="MoonWarriors" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="MoonWarriors" RUN_TARGET_NAME="MoonWarriors" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -331,9 +333,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36636972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.45100224" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.25278395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.52672607" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.17706013" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2884187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -342,6 +343,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -441,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/ceval.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3996" column="12" selection-start="123898" selection-end="123898" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55537" column="0" selection-start="2476846" selection-end="2476846" vertical-scroll-proportion="0.016317016" />
@@ -463,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/PauseLayer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -495,16 +483,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
+    <entry file="file://$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/ceval.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+        <state line="3996" column="12" selection-start="123898" selection-end="123898" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#153#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoonWarriors/ios/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.8627451">
+        <state line="16" column="67" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.4117647">
           <folding />
         </state>
       </provider>

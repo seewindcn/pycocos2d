@@ -142,8 +142,8 @@ class Ship(UnitSprite):
         Effect.explode(self.sprite.getParent(), self.sprite.getPosition())
         self.sprite.removeFromParent()
         
-        # if (Config.sharedConfig().getAudioState()){
-        #     CocosDenshion.SimpleAudioEngine.sharedEngine().playEffect(s_shipDestroyEffect)
+        if config.isAudioOn:
+            self.ctl.audio.playEffect(s_shipDestroyEffect)
         self.view.unit_destroy(self)
             
 

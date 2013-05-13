@@ -88,9 +88,8 @@ class GameView(BaseView):
         # 每秒调一次 scoreCounter函数
         self.ctl.schedule(self.cb_scoreCounter, 1)
         
-        # if (Config.sharedConfig().getAudioState()) {
-        #     SimpleAudioEngine.sharedEngine().playBackgroundMusic(s_bgMusic, true)
-        # }
+        if config.isAudioOn:
+            self.ctl.audio.playBackgroundMusic(s_bgMusic, True)
 
 
     def initBackground(self):
@@ -174,8 +173,8 @@ class GameView(BaseView):
 
     def doPause(self, pSender):
         self.ctl.director.pause()
-        # SimpleAudioEngine.sharedEngine().pauseBackgroundMusic()
-        # SimpleAudioEngine.sharedEngine().pauseAllEffects()
+        self.ctl.audio.pauseBackgroundMusic()
+        self.ctl.audio.pauseAllEffects()
         self.pauseLayer = PauseLayer(self.ctl)
         self.addChild(self.pauseLayer.layer, 9999)
 

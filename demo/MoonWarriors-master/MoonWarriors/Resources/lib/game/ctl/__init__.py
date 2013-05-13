@@ -18,6 +18,7 @@ class MainCtl(object):
         self.director.setDepthTest(False)
         self.scheduler = self.director.Scheduler
         self.winSize = self.director.getWinSize()
+        self.audio = SimpleAudioEngine.sharedEngine()
         self.view = None
         self.ctl_view = None
 
