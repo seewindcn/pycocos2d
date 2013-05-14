@@ -26,9 +26,9 @@ enum CB_TYPE {
     CB_Compare,
 };
 
-inline const char* cc_type_name(void* p) {
-    return typeid(*p).name();
-}
+//inline const char* cc_type_name(void* p) {
+//    return typeid(*p).name();
+//}
 
 
 
