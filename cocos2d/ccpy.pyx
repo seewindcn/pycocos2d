@@ -835,8 +835,8 @@ cdef class CCEGLView:
     def isOpenGLReady(self):
         return self._co.isOpenGLReady()
 
-    def setContentScaleFactor(self, float contentScaleFactor):
-        return self._co.setContentScaleFactor(contentScaleFactor)
+    #def setContentScaleFactor(self, float contentScaleFactor):
+    #    return self._co.setContentScaleFactor(contentScaleFactor)
 
     #keep compatible
     def end(self):
@@ -6811,7 +6811,7 @@ def get_typeof(CCObject obj):
     return typeof(obj._co)
 
 def type_name(CCObject obj):
-    return cc_type_name(obj._co)
+    pass#return cc_type_name(obj._co)
 
 # cdef object create_by(pointer _co):
 #     if typeof(_co) == typeof(ccScene.CCScene*):
