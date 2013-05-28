@@ -82,7 +82,7 @@ cdef extern from "cocos2d.h" namespace "cocos2d":
         void createFontChars()
         void setString(const char *label)
         void setString(const char *label, bool fromUpdate)
-        void updateString(bool fromUpdate)
+        # void updateString(bool fromUpdate)
         const char* getString()
         void setCString(const char *label)
         void setAnchorPoint(const CCPoint& var)

@@ -124,7 +124,6 @@ cdef extern from "cocos2d.h" namespace "cocos2d":
         void setOpacityModifyRGB(bool bValue)
         bool isOpacityModifyRGB()
 
-    CCLayerColor* CCLayerColor_node"cocos2d::CCLayerColor::node"()
     CCLayerColor* CCLayerColor_create"cocos2d::CCLayerColor::create"()
     CCLayerColor * CCLayerColor_create"cocos2d::CCLayerColor::create"(const ccColor4B& color)
     CCLayerColor * CCLayerColor_create"cocos2d::CCLayerColor::create"(const ccColor4B& color, GLfloat width, GLfloat height)

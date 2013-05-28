@@ -3,6 +3,7 @@
 from libc.string cimport const_char
 from libcpp cimport bool
 from libcpp.string cimport string
+from libcpp.vector cimport vector
 from libcpp.set cimport set as cset
 from cc cimport (\
     shaders,

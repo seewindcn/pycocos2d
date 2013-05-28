@@ -926,8 +926,6 @@ cdef class CCFileUtils(TypeInfo):
         p = self.utils().getFileDataFromZip(pszZipFilePath, pszFileName, &pSize)
         return p, pSize
 
-    def fullPathFromRelativePath(self, str pszRelativePath):
-        return self.utils().fullPathFromRelativePath(pszRelativePath)
 
     def fullPathForFilename(self, str pszFileName):
         return self.utils().fullPathForFilename(pszFileName)
@@ -941,19 +939,55 @@ cdef class CCFileUtils(TypeInfo):
     def fullPathFromRelativeFile(self, str pszFileName, str pszRelativeFile):
         return self.utils().fullPathFromRelativeFile(pszFileName, pszRelativeFile)
 
-    def setResourceDirectory(self, str pszDirectoryName):
-        self.utils().setResourceDirectory(pszDirectoryName)
+    def setSearchResolutionsOrder(self, searchResolutionsOrder):
+        cdef vector[string] v
+        n = v.size()
+        for i in xrange(n):
+            v.push_back(searchResolutionsOrder[i])
+        self.utils().setSearchResolutionsOrder(v)
 
-    # void setSearchResolutionsOrder(const std::vector<string>& searchResolutionsOrder)
-    # const std::vector<string>& getSearchResolutionsOrder()
-    # void setSearchPaths(const std::vector<string>& searchPaths)
-    # const std::vector<string>& getSearchPaths()
 
-    def getResourceDirectory(self):
-        return self.utils().getResourceDirectory()
+    def getSearchResolutionsOrder(self):
+        cdef vector[string] v 
+        v = self.utils().getSearchResolutionsOrder()
+        rs = []
+        n = v.size()
+        for i in xrange(n):
+            rs.append(v[i])
+        return rs
 
-    def getWriteablePath(self):
-        return self.utils().getWriteablePath()
+    def addSearchResolutionsOrder(self, order):
+        self.utils().addSearchResolutionsOrder(order)
+
+    def getSearchPaths(self):
+        cdef vector[string] v
+        v = self.utils().getSearchPaths()
+        n = v.size()
+        rs = []
+        for i in xrange(n):
+            rs.append(v[i])
+        return rs
+
+    def setSearchPaths(self, searchPaths):
+        cdef vector[string] v
+        for p in searchPaths:
+            v.push_back(p)
+        self.utils().setSearchPaths(v)
+        
+
+    def addSearchPath(self, path):
+        self.utils().addSearchPath(path)
+
+    def getWritablePath(self):
+        return self.utils().getWritablePath()
+
+    def isFileExist(self, strFilePath):
+        cdef string s = strFilePath
+        return self.utils().isFileExist(s)
+
+    def isAbsolutePath(self, strPath):
+        cdef string s = strPath
+        return self.utils().isAbsolutePath(s)
 
     def setPopupNotify(self, bool bNotify):
         self.utils().setPopupNotify(bNotify)
@@ -4153,12 +4187,6 @@ cdef class CCLayerColor(CCLayer):
         return <ccLayer.CCLayerColor*>self._co
 
     @classmethod
-    def create_node(cls):
-        cdef CCLayerColor o = cls()
-        o._co = <cocoa.CCObject*>ccLayer.CCLayerColor_node()
-        return o
-
-    @classmethod
     def create(cls, ccColor4B color=None, width=None, height=None):
         cdef CCLayerColor o = cls()
         if color is None:
@@ -6142,9 +6170,6 @@ cdef class CCLabelBMFont(CCSpriteBatchNode):
         else:
             self.font().setString(label, fromUpdate)
 
-    def updateString(self, bool fromUpdate):
-        self.font().updateString(fromUpdate)
-
     def getString(self):
         return self.font().getString()
 
@@ -6187,12 +6212,6 @@ def FNTConfigRemoveCache():
 cdef class CCLabelTTF(CCSprite):
     cdef inline label_nodes.CCLabelTTF* ttf(self):
         return <label_nodes.CCLabelTTF*>self._co
-
-    @classmethod
-    def TTFNode(cls):
-        o = cls()
-        o.set_co(<int>label_nodes.CCLabelTTF_node())
-        return o
 
     @classmethod
     def create(cls, str string, str fontName, float fontSize,

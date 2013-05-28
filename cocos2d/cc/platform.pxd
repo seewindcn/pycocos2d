@@ -2,6 +2,7 @@
 
 from libcpp cimport bool
 from libcpp.string cimport string
+from libcpp.vector cimport vector
 from cocoa cimport *
 from include_h cimport *
 
@@ -99,21 +100,25 @@ cdef extern from "cocos2d.h" namespace "cocos2d":
 
     #-------------CCFileUtils.h-------------
     cppclass CCFileUtils(TypeInfo):
+        #const char* fullPathFromRelativePath(const char *pszRelativePath)
+        # void setResourceDirectory(const char *pszDirectoryName)
+        # const char* getResourceDirectory()
         void purgeCachedEntries()
         unsigned char* getFileData(const char* pszFileName, const char* pszMode, unsigned long * pSize)
         unsigned char* getFileDataFromZip(const char* pszZipFilePath, const char* pszFileName, unsigned long * pSize)
-        const char* fullPathFromRelativePath(const char *pszRelativePath)
         string fullPathForFilename(const char* pszFileName)
         void loadFilenameLookupDictionaryFromFile(const char* filename)
         void setFilenameLookupDictionary(CCDictionary* pFilenameLookupDict)
         const char* fullPathFromRelativeFile(const char *pszFilename, const char *pszRelativeFile)
-        void setResourceDirectory(const char *pszDirectoryName)
-        # void setSearchResolutionsOrder(const std::vector<string>& searchResolutionsOrder)
-        # const std::vector<string>& getSearchResolutionsOrder()
-        # void setSearchPaths(const std::vector<string>& searchPaths)
-        # const std::vector<string>& getSearchPaths()
-        const char* getResourceDirectory()
-        string getWriteablePath()
+        void setSearchResolutionsOrder(const vector[string]& searchResolutionsOrder)
+        const vector[string]& getSearchResolutionsOrder()
+        void addSearchResolutionsOrder(const char* order)
+        const vector[string]& getSearchPaths()
+        void setSearchPaths(const vector[string]& searchPaths)
+        void addSearchPath(const char* path)
+        string getWritablePath()
+        bool isFileExist(const string& strFilePath)
+        bool isAbsolutePath(const string& strPath)
         void setPopupNotify(bool bNotify)
         bool isPopupNotify()
 

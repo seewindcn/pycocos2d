@@ -3,6 +3,7 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp" line="342" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp" line="157" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h" line="211" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b6f4c7-ebd5-442e-89c2-ae998acdffd8" name="Default" comment="" />
@@ -21,52 +22,14 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_IPAD_DLXJV9RMF185" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_UNIVERSAL" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ceval.c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/ceval.c">
+      <file leaf-file-name="CCTouchDispatcher.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3996" column="12" selection-start="123898" selection-end="123898" vertical-scroll-proportion="0.0">
+            <state line="322" column="26" selection-start="8815" selection-end="8815" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCScheduler.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/CCScheduler.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="0" selection-start="5674" selection-end="5674" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cc.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameLayer.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/GameLayer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="0" selection-start="4492" selection-end="4492" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppDelegate.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#153#177#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,19 +43,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCTouchDispatcher.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp">
+      <file leaf-file-name="CCFileUtils.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="26" selection-start="8815" selection-end="8815" vertical-scroll-proportion="0.0">
+            <state line="267" column="38" selection-start="11521" selection-end="11521" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PauseLayer.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/PauseLayer.cpp">
+      <file leaf-file-name="CCLayer.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/layers_scenes_transitions_nodes/CCLayer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
+            <state line="218" column="4" selection-start="7872" selection-end="7872" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCLabelBMFont.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/label_nodes/CCLabelBMFont.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="13" selection-start="5896" selection-end="5896" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ccpy.cpp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23904" column="18" selection-start="1096368" selection-end="1096368" vertical-scroll-proportion="0.5117773">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="40" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,10 +97,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ceval.c" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/ceval.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3996" column="12" selection-start="123898" selection-end="123898" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.4117647">
+            <state line="8" column="11" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,18 +131,19 @@
         <option value="$PROJECT_DIR$/MoonWarriors/libs/extensions/GUI/CCScrollView/CCScrollView.h" />
         <option value="$PROJECT_DIR$/../../lib/cocos2dx/include/ccTypes.h" />
         <option value="$PROJECT_DIR$/MoonWarriors/ios/main.m" />
-        <option value="$PROJECT_DIR$/../../cocos2d/ccpy.cpp" />
         <option value="$PROJECT_DIR$/../../cocos2d/cc.cpp" />
         <option value="$PROJECT_DIR$/../../cocos2d/cc.h" />
         <option value="$PROJECT_DIR$/../../lib/cocos2dx/CCDirector.cpp" />
         <option value="$PROJECT_DIR$/MoonWarriors/Classes/PauseLayer.cpp" />
         <option value="$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp" />
         <option value="$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py" />
+        <option value="$PROJECT_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h" />
+        <option value="$PROJECT_DIR$/../../cocos2d/ccpy.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
+    <option name="x" value="229" />
     <option name="y" value="22" />
     <option name="width" value="1569" />
     <option name="height" value="992" />
@@ -174,7 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,7 +246,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,24 +264,26 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
+              <option name="myItemId" value="ios" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib/cocos2dx" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../res/lib/python2.7" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="MoonWarriors" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.MoonWarriors">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="MoonWarriors" TARGET_NAME="MoonWarriors" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="MoonWarriors" RUN_TARGET_NAME="MoonWarriors" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -327,15 +328,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="22" width="1569" height="992" extended-state="0" />
-    <editor active="true" />
+    <frame x="229" y="22" width="1569" height="992" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36636972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43541202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.52672607" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.17706013" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2884187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.23051225" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967659" sideWeight="0.32628062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2884187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -411,26 +412,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/effects/CCGrid.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="534" column="0" selection-start="13950" selection-end="13950" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/base_nodes/CCNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="503" column="25" selection-start="10705" selection-end="10705" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file:///Applications/dev/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/c++/4.2.1/limits">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="680" column="21" selection-start="24976" selection-end="24976" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/platform/CCEGLViewProtocol.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="0" selection-start="5738" selection-end="5738" vertical-scroll-proportion="0.6254753" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/menu_nodes/CCMenu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="244" column="0" selection-start="6027" selection-end="6027" vertical-scroll-proportion="0.7885615" />
@@ -441,11 +422,6 @@
         <state line="185" column="0" selection-start="5674" selection-end="5674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55537" column="0" selection-start="2476846" selection-end="2476846" vertical-scroll-proportion="0.016317016" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/GameLayer.cpp">
@@ -476,26 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="26" selection-start="8815" selection-end="8815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/ceval.c">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3996" column="12" selection-start="123898" selection-end="123898" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#153#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,9 +466,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="26" selection-start="8815" selection-end="8815" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.4117647">
+        <state line="8" column="11" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/CocosDenshion/ios/SimpleAudioEngine.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="24" selection-start="7335" selection-end="7335" vertical-scroll-proportion="0.72675085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="40" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="38" selection-start="11521" selection-end="11521" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/layers_scenes_transitions_nodes/CCLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="4" selection-start="7872" selection-end="7872" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/label_nodes/CCLabelBMFont.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="13" selection-start="5896" selection-end="5896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23904" column="18" selection-start="1096368" selection-end="1096368" vertical-scroll-proportion="0.5117773">
           <folding />
         </state>
       </provider>
