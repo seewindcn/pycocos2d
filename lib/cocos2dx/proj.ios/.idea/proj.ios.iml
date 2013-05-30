@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../CCCamera.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../CCCamera.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCCamera.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CCCamera.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCConfiguration.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../CCConfiguration.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCConfiguration.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CCConfiguration.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCDirector.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../CCDirector.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCDirector.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CCDirector.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCScheduler.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../CCScheduler.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CCScheduler.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CCScheduler.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCAction.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCAction.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCAction.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCAction.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionCamera.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionCamera.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionCamera.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionCamera.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionCatmullRom.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionCatmullRom.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionCatmullRom.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionCatmullRom.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionEase.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionEase.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionEase.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionEase.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionGrid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionGrid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionGrid.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionGrid.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionGrid3D.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionGrid3D.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionGrid3D.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionGrid3D.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionInstant.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionInstant.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionInstant.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionInstant.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionInterval.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionInterval.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionInterval.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionInterval.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionManager.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionManager.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionManager.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionManager.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionPageTurn3D.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionPageTurn3D.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionPageTurn3D.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionPageTurn3D.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionProgressTimer.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionProgressTimer.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionProgressTimer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionProgressTimer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionTiledGrid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionTiledGrid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionTiledGrid.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionTiledGrid.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionTween.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionTween.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../actions/CCActionTween.h">
+      <sourceFolder url="file://$MODULE_DIR$/../actions/CCActionTween.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../base_nodes/CCAtlasNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../base_nodes/CCAtlasNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../base_nodes/CCAtlasNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../base_nodes/CCAtlasNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../base_nodes/CCNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../base_nodes/CCNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../base_nodes/CCNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../base_nodes/CCNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../ccFPSImages.c">
+      <sourceFolder url="file://$MODULE_DIR$/../ccFPSImages.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../ccFPSImages.h">
+      <sourceFolder url="file://$MODULE_DIR$/../ccFPSImages.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCAffineTransform.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCAffineTransform.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCAffineTransform.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCAffineTransform.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCArray.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCArray.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCArray.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCArray.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCAutoreleasePool.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCAutoreleasePool.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCAutoreleasePool.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCAutoreleasePool.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCBool.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCBool.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCDictionary.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCDictionary.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCDictionary.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCDictionary.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCDouble.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCDouble.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCFloat.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCFloat.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCGeometry.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCGeometry.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCGeometry.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCGeometry.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCInteger.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCInteger.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCNS.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCNS.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCNS.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCNS.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCObject.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCObject.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCObject.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCObject.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCSet.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCSet.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCSet.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCSet.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCString.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCString.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCString.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCString.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCZone.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCZone.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocoa/CCZone.h">
+      <sourceFolder url="file://$MODULE_DIR$/../cocoa/CCZone.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../cocos2d.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../cocos2d.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../draw_nodes/CCDrawNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../draw_nodes/CCDrawNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../draw_nodes/CCDrawNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../draw_nodes/CCDrawNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../draw_nodes/CCDrawingPrimitives.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../draw_nodes/CCDrawingPrimitives.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../draw_nodes/CCDrawingPrimitives.h">
+      <sourceFolder url="file://$MODULE_DIR$/../draw_nodes/CCDrawingPrimitives.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../effects/CCGrabber.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../effects/CCGrabber.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../effects/CCGrabber.h">
+      <sourceFolder url="file://$MODULE_DIR$/../effects/CCGrabber.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../effects/CCGrid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../effects/CCGrid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../effects/CCGrid.h">
+      <sourceFolder url="file://$MODULE_DIR$/../effects/CCGrid.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/CCEventType.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/CCEventType.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/CCProtocols.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/CCProtocols.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/ccConfig.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/ccConfig.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/ccMacros.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/ccMacros.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/ccTypeInfo.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/ccTypeInfo.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/ccTypes.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/ccTypes.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../include/cocos2d.h">
+      <sourceFolder url="file://$MODULE_DIR$/../include/cocos2d.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/GL/mat4stack.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/GL/mat4stack.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/GL/matrix.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/GL/matrix.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/aabb.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/aabb.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/kazmath.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/kazmath.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/mat3.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/mat3.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/mat4.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/mat4.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/neon_matrix_impl.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/neon_matrix_impl.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/plane.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/plane.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/quaternion.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/quaternion.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/ray2.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/ray2.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/utility.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/utility.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec2.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec2.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec3.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec3.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec4.h">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/include/kazmath/vec4.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/CMakeLists.txt">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/ChangeLog">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/ChangeLog" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/GL/mat4stack.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/GL/mat4stack.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/GL/matrix.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/GL/matrix.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/aabb.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/aabb.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/mat3.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/mat3.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/mat4.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/mat4.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/neon_matrix_impl.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/neon_matrix_impl.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/plane.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/plane.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/quaternion.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/quaternion.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/ray2.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/ray2.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/utility.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/utility.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/vec2.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/vec2.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/vec3.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/vec3.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../kazmath/src/vec4.c">
+      <sourceFolder url="file://$MODULE_DIR$/../kazmath/src/vec4.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDelegate.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDelegate.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDelegate.h">
+      <sourceFolder url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDelegate.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDispatcher.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDispatcher.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDispatcher.h">
+      <sourceFolder url="file://$MODULE_DIR$/../keypad_dispatcher/CCKeypadDispatcher.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelAtlas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelAtlas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelAtlas.h">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelAtlas.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelBMFont.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelBMFont.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelBMFont.h">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelBMFont.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelTTF.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelTTF.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../label_nodes/CCLabelTTF.h">
+      <sourceFolder url="file://$MODULE_DIR$/../label_nodes/CCLabelTTF.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCLayer.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCLayer.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCLayer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCLayer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCScene.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCScene.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCScene.h">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCScene.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransition.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransition.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransition.h">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransition.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionPageTurn.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionPageTurn.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionPageTurn.h">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionPageTurn.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionProgress.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionProgress.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionProgress.h">
+      <sourceFolder url="file://$MODULE_DIR$/../layers_scenes_transitions_nodes/CCTransitionProgress.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../menu_nodes/CCMenu.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../menu_nodes/CCMenu.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../menu_nodes/CCMenu.h">
+      <sourceFolder url="file://$MODULE_DIR$/../menu_nodes/CCMenu.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../menu_nodes/CCMenuItem.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../menu_nodes/CCMenuItem.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../menu_nodes/CCMenuItem.h">
+      <sourceFolder url="file://$MODULE_DIR$/../menu_nodes/CCMenuItem.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCClippingNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCClippingNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCClippingNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCClippingNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCMotionStreak.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCMotionStreak.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCMotionStreak.h">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCMotionStreak.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCProgressTimer.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCProgressTimer.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCProgressTimer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCProgressTimer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCRenderTexture.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCRenderTexture.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../misc_nodes/CCRenderTexture.h">
+      <sourceFolder url="file://$MODULE_DIR$/../misc_nodes/CCRenderTexture.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleBatchNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleBatchNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleBatchNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleBatchNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleExamples.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleExamples.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleExamples.h">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleExamples.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystem.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystem.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystem.h">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystem.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystemQuad.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystemQuad.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystemQuad.h">
+      <sourceFolder url="file://$MODULE_DIR$/../particle_nodes/CCParticleSystemQuad.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCAccelerometerDelegate.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCAccelerometerDelegate.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCApplicationProtocol.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCApplicationProtocol.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCCommon.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCCommon.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCDevice.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCDevice.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCEGLViewProtocol.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCEGLViewProtocol.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCEGLViewProtocol.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCEGLViewProtocol.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCFileUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCFileUtils.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCFileUtils.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCFileUtils.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCImage.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCImage.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCImageCommonWebp.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCImageCommonWebp.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCPlatformConfig.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCPlatformConfig.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCPlatformMacros.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCPlatformMacros.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCSAXParser.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCSAXParser.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCSAXParser.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCSAXParser.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/CCThread.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/CCThread.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/AccelerometerDelegateWrapper.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/AccelerometerDelegateWrapper.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/AccelerometerDelegateWrapper.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/AccelerometerDelegateWrapper.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCAccelerometer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCAccelerometer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCAccelerometer.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCAccelerometer.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCApplication.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCApplication.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCApplication.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCApplication.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCCommon.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCCommon.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCDevice.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCDevice.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCDirectorCaller.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCDirectorCaller.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCDirectorCaller.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCDirectorCaller.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCEGLView.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCEGLView.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCEGLView.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCEGLView.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCES2Renderer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCES2Renderer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCES2Renderer.m">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCES2Renderer.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCESRenderer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCESRenderer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCFileUtilsIOS.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCFileUtilsIOS.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCFileUtilsIOS.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCFileUtilsIOS.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCGL.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCGL.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCImage.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCImage.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCLock.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCLock.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCLock.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCLock.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCPlatformDefine.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCPlatformDefine.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCStdC.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCStdC.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/CCThread.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/CCThread.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/EAGLView.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/EAGLView.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/EAGLView.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/EAGLView.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/OpenGL_Internal.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/OpenGL_Internal.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/Simulation/AccelerometerSimulation.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/Simulation/AccelerometerSimulation.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/ios/Simulation/AccelerometerSimulation.m">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/ios/Simulation/AccelerometerSimulation.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/platform.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/platform.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/platform.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/platform.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/third_party/ios/webp/decode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/third_party/ios/webp/decode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/third_party/ios/webp/encode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/third_party/ios/webp/encode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../platform/third_party/ios/webp/types.h">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/third_party/ios/webp/types.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../script_support/CCScriptSupport.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../script_support/CCScriptSupport.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../script_support/CCScriptSupport.h">
+      <sourceFolder url="file://$MODULE_DIR$/../script_support/CCScriptSupport.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/CCGLProgram.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/CCGLProgram.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/CCGLProgram.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/CCGLProgram.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/CCShaderCache.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/CCShaderCache.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/CCShaderCache.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/CCShaderCache.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccGLStateCache.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccGLStateCache.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccGLStateCache.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccGLStateCache.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShaderEx_SwitchMask_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShaderEx_SwitchMask_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionColor_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionColor_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionColor_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionColor_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureA8Color_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureA8Color_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureA8Color_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureA8Color_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColorAlphaTest_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColorAlphaTest_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColor_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColor_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColor_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTextureColor_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_uColor_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_uColor_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_uColor_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_uColor_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_PositionTexture_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_Position_uColor_frag.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_Position_uColor_frag.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShader_Position_uColor_vert.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShader_Position_uColor_vert.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShaders.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShaders.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shaders/ccShaders.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shaders/ccShaders.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCAnimation.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCAnimation.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCAnimation.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCAnimation.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCAnimationCache.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCAnimationCache.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCAnimationCache.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCAnimationCache.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSprite.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSprite.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSprite.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSprite.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteBatchNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteBatchNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteBatchNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteBatchNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrame.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrame.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrame.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrame.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrameCache.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrameCache.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrameCache.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sprite_nodes/CCSpriteFrameCache.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCNotificationCenter.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCNotificationCenter.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCNotificationCenter.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCNotificationCenter.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCPointExtension.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCPointExtension.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCPointExtension.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCPointExtension.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCProfiling.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCProfiling.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCProfiling.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCProfiling.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCVertex.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCVertex.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/CCVertex.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/CCVertex.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/TransformUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/TransformUtils.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/TransformUtils.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/TransformUtils.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/base64.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/base64.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/base64.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/base64.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/ccUTF8.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/ccUTF8.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/ccUTF8.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/ccUTF8.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/ccUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/ccUtils.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/ccUtils.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/ccUtils.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/data_support/ccCArray.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/data_support/ccCArray.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/data_support/ccCArray.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/data_support/ccCArray.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/data_support/uthash.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/data_support/uthash.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/data_support/utlist.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/data_support/utlist.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/image_support/TGAlib.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/image_support/TGAlib.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/image_support/TGAlib.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/image_support/TGAlib.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/tinyxml2/tinyxml2.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/tinyxml2/tinyxml2.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/tinyxml2/tinyxml2.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/tinyxml2/tinyxml2.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../support/user_default/CCUserDefault.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/user_default/CCUserDefaultAndroid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/user_default/CCUserDefaultAndroid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/ZipUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/ZipUtils.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/ZipUtils.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/ZipUtils.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/ioapi.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/ioapi.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/ioapi.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/ioapi.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/unzip.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/unzip.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../support/zip_support/unzip.h">
+      <sourceFolder url="file://$MODULE_DIR$/../support/zip_support/unzip.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../text_input_node/CCIMEDelegate.h">
+      <sourceFolder url="file://$MODULE_DIR$/../text_input_node/CCIMEDelegate.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../text_input_node/CCIMEDispatcher.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../text_input_node/CCIMEDispatcher.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../text_input_node/CCIMEDispatcher.h">
+      <sourceFolder url="file://$MODULE_DIR$/../text_input_node/CCIMEDispatcher.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../text_input_node/CCTextFieldTTF.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../text_input_node/CCTextFieldTTF.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../text_input_node/CCTextFieldTTF.h">
+      <sourceFolder url="file://$MODULE_DIR$/../text_input_node/CCTextFieldTTF.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTexture2D.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTexture2D.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTexture2D.h">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTexture2D.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTextureAtlas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTextureAtlas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTextureAtlas.h">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTextureAtlas.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTextureCache.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTextureCache.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTextureCache.h">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTextureCache.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTexturePVR.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTexturePVR.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../textures/CCTexturePVR.h">
+      <sourceFolder url="file://$MODULE_DIR$/../textures/CCTexturePVR.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCParallaxNode.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCParallaxNode.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCParallaxNode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCParallaxNode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXLayer.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXLayer.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXLayer.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXLayer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXObjectGroup.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXObjectGroup.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXObjectGroup.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXObjectGroup.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXTiledMap.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXTiledMap.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXTiledMap.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXTiledMap.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXXMLParser.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXXMLParser.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXXMLParser.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTMXXMLParser.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTileMapAtlas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTileMapAtlas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTileMapAtlas.h">
+      <sourceFolder url="file://$MODULE_DIR$/../tilemap_parallax_nodes/CCTileMapAtlas.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouch.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouch.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouch.h">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouch.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDelegateProtocol.h">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDelegateProtocol.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDispatcher.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDispatcher.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDispatcher.h">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchDispatcher.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchHandler.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchHandler.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchHandler.h">
+      <sourceFolder url="file://$MODULE_DIR$/../touch_dispatcher/CCTouchHandler.h" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

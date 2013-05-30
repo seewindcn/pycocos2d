@@ -124,6 +124,11 @@ cdef extern from "cc.h":
         inline void init(void* data, touch_func touch, touchs_func touchs)
 
 
+#define
+cdef extern from *:
+    cdef void emit_endif "#endif //" ()
+    cdef void emit_OBJC_ "#ifdef __OBJC__ //" ()
+
 #------------
 #------------
 #------------

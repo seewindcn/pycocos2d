@@ -20,7 +20,11 @@ cdef class CCEGLView:
         return self._co.isOpenGLReady()
 
     def setContentScaleFactor(self, float contentScaleFactor):
-        return self._co.setContentScaleFactor(contentScaleFactor)
+        rs = None
+        emit_OBJC_()
+        rs = self._co.setContentScaleFactor(contentScaleFactor)
+        emit_endif()
+        return rs
 
     #keep compatible
     def end(self):
@@ -94,6 +98,12 @@ cdef class CCImage(CCObject):
 cdef class CCFileUtils(TypeInfo):
     cdef inline platform.CCFileUtils* utils(self):
         return <platform.CCFileUtils*>self._co
+
+    @classmethod
+    def sharedFileUtils(cls):
+        cdef CCFileUtils o = cls()
+        o._co = <include_h.TypeInfo*>platform.CCFileUtils_sharedFileUtils()
+        return o
 
     def purgeCachedEntries(self):
         self.utils().purgeCachedEntries()

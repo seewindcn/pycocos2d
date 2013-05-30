@@ -181,11 +181,11 @@ cdef class PyxDelegate:
             self.sCancelled(th, e)
 
 
-def get_typeof(CCObject obj):
-    return typeof(obj._co)
+# def get_typeof(CCObject obj):
+#     return typeof(obj._co)
 
-def type_name(CCObject obj):
-    return cc_type_name(obj._co)
+# def type_name(CCObject obj):
+#     return cc_type_name(obj._co)
 
 # cdef object create_by(pointer _co):
 #     if typeof(_co) == typeof(ccScene.CCScene*):

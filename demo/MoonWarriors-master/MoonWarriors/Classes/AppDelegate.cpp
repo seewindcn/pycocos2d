@@ -9,9 +9,11 @@
 #include "AppDelegate.h"
 
 #include "cocos2d.h"
-#include "StartMenu.h"
+#ifndef WIN32
+  #include "StartMenu.h"
+#endif
 #include "SimpleAudioEngine.h"
-#import "Python.h"
+#include "Python.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -43,6 +45,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
+	//CCFileUtils::sharedFileUtils()->setResourceDirectory("E:\\dev\\cocos2d\\pycocos2d\\demo\\MoonWarriors-master\\MoonWarriors\\Resources");
 
     py_run();
 
