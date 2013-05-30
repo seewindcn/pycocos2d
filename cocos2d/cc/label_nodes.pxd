@@ -151,7 +151,6 @@ cdef extern from "cocos2d.h" namespace "cocos2d":
     CCLabelTTF * CCLabelTTF_create"cocos2d::CCLabelTTF::create"(const char *string, const char *fontName, float fontSize,
                                const CCSize& dimensions, CCTextAlignment hAlignment, 
                                CCVerticalTextAlignment vAlignment)
-    CCLabelTTF * CCLabelTTF_node"cocos2d::CCLabelTTF::node"()
 
 
 

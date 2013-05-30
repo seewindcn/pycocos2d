@@ -619,6 +619,12 @@
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/base_nodes/CCNode.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/base_nodes/CCNode.h" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/ccFPSImages.c">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/ccFPSImages.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/ccFPSImages.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/ccFPSImages.h" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/cocoa/CCAffineTransform.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/cocoa/CCAffineTransform.cpp" isTestSource="false" />
     </content>
@@ -958,11 +964,17 @@
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCCommon.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCCommon.h" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCDevice.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCDevice.h" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCEGLViewProtocol.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCEGLViewProtocol.cpp" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCEGLViewProtocol.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCEGLViewProtocol.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCFileUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCFileUtils.cpp" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h" isTestSource="false" />
@@ -972,6 +984,9 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImage.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImage.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImageCommonWebp.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImageCommonWebp.cpp" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImageCommon_cpp.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/CCImageCommon_cpp.h" isTestSource="false" />
@@ -1177,6 +1192,9 @@
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCCommon.mm">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCCommon.mm" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCDevice.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCDevice.mm" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCDirectorCaller.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCDirectorCaller.h" isTestSource="false" />
     </content>
@@ -1200,6 +1218,12 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtils.mm">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtils.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtilsIOS.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtilsIOS.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtilsIOS.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCFileUtilsIOS.mm" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCGL.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/ios/CCGL.h" isTestSource="false" />
@@ -1617,6 +1641,15 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/curl/typecheck-gcc.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/curl/typecheck-gcc.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/decode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/decode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/encode.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/encode.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/types.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/ios/webp/types.h" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/linux/curl/curl.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/platform/third_party/linux/curl/curl.h" isTestSource="false" />
@@ -4519,6 +4552,12 @@
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/base64.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/base64.h" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUTF8.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUTF8.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUTF8.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUTF8.h" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUtils.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/ccUtils.cpp" isTestSource="false" />
     </content>
@@ -4542,6 +4581,24 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/image_support/TGAlib.h">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/image_support/TGAlib.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/tinyxml2/tinyxml2.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/tinyxml2/tinyxml2.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/tinyxml2/tinyxml2.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/tinyxml2/tinyxml2.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.mm">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefault.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefaultAndroid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/user_default/CCUserDefaultAndroid.cpp" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/cocos2dx/support/zip_support/ZipUtils.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/cocos2dx/support/zip_support/ZipUtils.cpp" isTestSource="false" />
@@ -4659,6 +4716,12 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/extensions/Android.mk">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/Android.mk" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/AssetsManager/AssetsManager.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/AssetsManager/AssetsManager.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/AssetsManager/AssetsManager.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/AssetsManager/AssetsManager.h" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../lib/extensions/CCBReader/CCBAnimationManager.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/CCBReader/CCBAnimationManager.cpp" isTestSource="false" />
@@ -4921,6 +4984,12 @@
     <content url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplMac.mm">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplMac.mm" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplWin.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplWin.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplWin.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCEditBox/CCEditBoxImplWin.h" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCScrollView/CCScrollView.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/GUI/CCScrollView/CCScrollView.cpp" isTestSource="false" />
     </content>
@@ -4986,6 +5055,123 @@
     </content>
     <content url="file://$MODULE_DIR$/../../lib/extensions/proj.marmalade/cocos2dx-ext_public.defines.txt">
       <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/proj.marmalade/cocos2dx-ext_public.defines.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Animation.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Animation.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Animation.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Animation.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationState.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationState.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationState.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationState.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationStateData.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationStateData.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationStateData.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AnimationStateData.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Atlas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Atlas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Atlas.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Atlas.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AtlasAttachmentLoader.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AtlasAttachmentLoader.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AtlasAttachmentLoader.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AtlasAttachmentLoader.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Attachment.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Attachment.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Attachment.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Attachment.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AttachmentLoader.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AttachmentLoader.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/AttachmentLoader.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/AttachmentLoader.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Bone.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Bone.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Bone.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Bone.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/BoneData.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/BoneData.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/BoneData.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/BoneData.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Json.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Json.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Json.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Json.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/RegionAttachment.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/RegionAttachment.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/RegionAttachment.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/RegionAttachment.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Skeleton.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Skeleton.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Skeleton.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Skeleton.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonData.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonData.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonData.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonData.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonJson.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonJson.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonJson.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SkeletonJson.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Skin.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Skin.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Skin.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Skin.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Slot.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Slot.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/Slot.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/Slot.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SlotData.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SlotData.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/SlotData.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/SlotData.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/extension.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/extension.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/extension.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/extension.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/spine-cocos2dx.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/spine-cocos2dx.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/spine-cocos2dx.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/spine-cocos2dx.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../lib/extensions/spine/spine.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../lib/extensions/spine/spine.h" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../pkg/greenlet/greenlet.c">
       <sourceFolder url="file://$MODULE_DIR$/../../pkg/greenlet/greenlet.c" isTestSource="false" />
