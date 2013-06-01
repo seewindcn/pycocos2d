@@ -2,3 +2,4 @@ syntax: glob
 .DS_Store
 *.class
 *.pyc
+proj.win32/Release.win32/*

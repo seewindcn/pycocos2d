@@ -23,7 +23,9 @@ include "py/director.pxi"
 include "py/menu.pxi"
 include "py/nodes.pxi"
 include "py/cocosDenshion.pxi"
-
+#ifdef _CC_CCB_
+include "py/ccb.pxi"
+#endif
 
 
 cdef void _call_back(void* data, int t, cocoa.CCObject* var1, 
@@ -188,7 +190,7 @@ cdef class PyxDelegate:
 #     return cc_type_name(obj._co)
 
 # cdef object create_by(pointer _co):
-#     if typeof(_co) == typeof(ccScene.CCScene*):
+##     if typeof(_co) == typeof(ccScene.CCScene*):
 #         return CCScene()._set_co(_co)
 
 

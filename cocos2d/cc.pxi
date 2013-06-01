@@ -26,6 +26,7 @@ from cc cimport (\
     tilemap,
     support,
     cocosDenshion,
+    ccb,
 )
 
 cimport cython.operator
@@ -128,6 +129,7 @@ cdef extern from "cc.h":
 cdef extern from *:
     cdef void emit_endif "#endif //" ()
     cdef void emit_OBJC_ "#ifdef __OBJC__ //" ()
+    cdef void emit_CC_CCB_ "#ifdef _CC_CCB_ //"()
 
 #------------
 #------------

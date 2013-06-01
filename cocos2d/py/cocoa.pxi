@@ -479,10 +479,7 @@ cdef class CCArray(CCObject):
     @classmethod
     def create(cls, capacity=None):
         o = cls()
-        if capacity is None:
-            o.set_co(<int>cocoa.CCArray_create())
-        else:
-            o.set_co(<int>cocoa.CCArray_createWithCapacity(capacity))
+        o.init(capacity=capacity)
         return o
 
     @classmethod
@@ -499,6 +496,19 @@ cdef class CCArray(CCObject):
         else:
             o.set_co(<int> cocoa.CCArray_createWithContentsOfFile(filename))
         return o
+
+    def __cinit__(self, alist=None):
+        if alist is not None:
+            cap = len(alist)
+            self.init(capacity=cap)
+            for i in alist:
+                self.addObject(i)
+
+    def init(self, capacity=None):
+        if capacity is None:
+            self._co = <cocoa.CCObject*>cocoa.CCArray_create()
+        else:
+            self._co = <cocoa.CCObject*>cocoa.CCArray_createWithCapacity(capacity)
 
     def count(self):
         return self.array().count()
