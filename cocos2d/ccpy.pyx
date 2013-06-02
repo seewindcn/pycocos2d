@@ -41,12 +41,22 @@ cdef class CallBack:
     # cdef inline CCPyFunc* func(self):
     #     return <CCPyFunc*>self._co
     def __cinit__(self, obj=None):
+        # self._co.retain()
         self.init(obj)
+
+    def __dealloc__(self):
+        # self._co.release()
+        pass
 
     cdef init(self, object obj):
         self.caches = PyDict_New()
         self._co.init(<void*>self, <call_back_func>&_call_back)
         self.obj = obj
+
+    def getCallBack(self):
+        cdef CCObject o = CCObject()
+        o._co = &self._co
+        return o
 
     def reg(self, CCObject obj):
         PyDict_SetItem(self.caches, <int>obj._co, obj)

@@ -32,6 +32,8 @@ class StartView(BaseView):
             self.ctl.view_options()
         elif tag == 21:
             self.ctl.view_about()
+        elif tag == 22:
+            self.ctl.view_ccb()
 
 
     def on_update(self, dt):
@@ -78,7 +80,11 @@ class StartView(BaseView):
         aboutNormal = CCSprite.create(s_menu, CCRectMake(252, 0, 126, 33))
         aboutSelected = CCSprite.create(s_menu, CCRectMake(252, 33, 126, 33))
         aboutDesabled = CCSprite.create(s_menu, CCRectMake(252, 33*2, 126, 33))
-        
+
+        ccbNormal = CCSprite.create(s_menu, CCRectMake(252, 0, 126, 33))
+        ccbSelected = CCSprite.create(s_menu, CCRectMake(252, 33, 126, 33))
+        ccbDesabled = CCSprite.create(s_menu, CCRectMake(252, 33*2, 126, 33))
+
         newGame = CCMenuItemSprite.create(newGameNormal, 
                 newGameSelected, newGameDisabled, 
                 self.cb_flareEffect)
@@ -93,8 +99,14 @@ class StartView(BaseView):
                 self.cb_menuCallback)
         about.setTag(21)
 
+        #ccb test
+        ccbTest = CCMenuItemSprite.create(ccbNormal,
+                ccbSelected, ccbDesabled,
+                self.cb_menuCallback)
+        ccbTest.setTag(22)
+
         # 最后一个参数要是NULL
-        menu = CCMenu.create(newGame, gameSetting, about)
+        menu = CCMenu.create(newGame, gameSetting, about, ccbTest)
         menu.alignItemsVerticallyWithPadding(20)
         menu.setPosition(winSize.width / 2, winSize.height / 2 - 80)
         self.addChild(menu, 1, 2)

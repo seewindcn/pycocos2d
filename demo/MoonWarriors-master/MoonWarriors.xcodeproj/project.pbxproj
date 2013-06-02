@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1BC531507ED42BDD36A1A7F7 /* ccpy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53715162FDA27A967173C /* ccpy.cpp */; };
+		1BC531D4F76C3BD7A259C200 /* ccb in Resources */ = {isa = PBXBuildFile; fileRef = 1BC5346C2BAF3BA2DF32F58D /* ccb */; };
 		1BC5343861068F831A98870B /* cc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53769CD19CC406605BAFF /* cc.cpp */; };
 		1BC53932AE0D0F3F3AFB3232 /* libpython2.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC53929F5E2F54EFB6A9E06 /* libpython2.7.a */; };
 		1BC53C5BB1DA8046A4F19E2C /* greenlet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53810D84D3E697AE2642C /* greenlet.c */; };
@@ -315,6 +316,7 @@
 		1BC533FC15EAACA4ABABF7C8 /* rangeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rangeobject.h; path = ../../../include/python2.7/rangeobject.h; sourceTree = "<group>"; };
 		1BC53407AA1AFCD84460EC99 /* enumobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enumobject.h; path = ../../../include/python2.7/enumobject.h; sourceTree = "<group>"; };
 		1BC5343C8BA31BB66CA8CDD1 /* pyexpat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyexpat.h; path = ../../../include/python2.7/pyexpat.h; sourceTree = "<group>"; };
+		1BC5346C2BAF3BA2DF32F58D /* ccb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = ccb; path = Resources/ccb; sourceTree = "<group>"; };
 		1BC534913C4C7771DB3CD251 /* Python-ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Python-ast.h"; path = "../../../include/python2.7/Python-ast.h"; sourceTree = "<group>"; };
 		1BC5349E5099A38C41170170 /* cellobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cellobject.h; path = ../../../include/python2.7/cellobject.h; sourceTree = "<group>"; };
 		1BC534EFA4CF51B4A88EAA61 /* boolobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boolobject.h; path = ../../../include/python2.7/boolobject.h; sourceTree = "<group>"; };
@@ -2099,6 +2101,7 @@
 				F624AC6316B3AB0700706EF3 /* Icon@2x.png */,
 				F624AC6516B3AB0700706EF3 /* iTunesArtwork */,
 				F624AC6716B3AB0800706EF3 /* Info.plist */,
+				1BC5346C2BAF3BA2DF32F58D /* ccb */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2254,6 +2257,7 @@
 				829E295F1754998E007B3150 /* ChangeLog in Resources */,
 				829E29601754998E007B3150 /* CMakeLists.txt in Resources */,
 				829E2C8717549AA1007B3150 /* Android.mk in Resources */,
+				1BC531D4F76C3BD7A259C200 /* ccb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

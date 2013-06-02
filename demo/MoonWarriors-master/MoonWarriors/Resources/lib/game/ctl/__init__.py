@@ -74,6 +74,11 @@ class MainCtl(object):
         self.view = v_game.GameView(self)
         self.ctl_view = GameCtrl(self, self.view)
 
+    @wrap_switch
+    def view_ccb(self):
+        from game.view import v_ccb
+        self.view = v_ccb.CCBView(self)
+
 
     def _on_goback(self, obj):
         self.view_start()
