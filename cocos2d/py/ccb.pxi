@@ -456,7 +456,8 @@ cdef class CCBAnimationManager(CCObject):
         self.mgr().addDocumentOutletName(name)
 
     def setDocumentControllerName(self, name):
-        self.mgr().setDocumentControllerName(name)
+        cdef string n = name
+        self.mgr().setDocumentControllerName(n)
     
     def getDocumentControllerName(self):
         return self.mgr().getDocumentControllerName()
@@ -519,7 +520,8 @@ cdef class CCBAnimationManager(CCObject):
         self.mgr().debug()
     
     def setCallFunc(self, CCCallFunc callFunc, callbackNamed):
-        self.mgr().setCallFunc(callFunc.func(), callbackNamed)
+        cdef string cname = callbackNamed
+        self.mgr().setCallFunc(callFunc.func(), cname)
 
     def actionForCallbackChannel(self, CCBSequenceProperty channel, cls=CCObject):
         cdef CCObject o = cls()
@@ -549,9 +551,7 @@ cdef class CCNodeLoaderLibrary(CCObject):
 
     @classmethod
     def purgeSharedCCNodeLoaderLibrary(cls):
-        cdef CCNodeLoaderLibrary o = cls()
-        o._co = <cocoa.CCObject*>ccb.CCNodeLoaderLibrary_purgeSharedCCNodeLoaderLibrary()
-        return o
+        ccb.CCNodeLoaderLibrary_purgeSharedCCNodeLoaderLibrary()
 
     @classmethod
     def newDefaultCCNodeLoaderLibrary(cls):

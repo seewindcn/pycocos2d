@@ -9,72 +9,7 @@ from cocoa cimport *
 from actions cimport *
 from ccScene cimport *
 
-
-cdef extern from "cocos2d.h" namespace "cocos2d":
-    cppclass CCBSequenceProperty(CCObject):
-        CCBSequenceProperty()
-        # ~CCBSequenceProperty()
-        
-        bool init()
-        
-        const char* getName()
-        void setName(const char* pName)
-        
-        int getType()
-        void setType(int nType)
-        
-        CCArray* getKeyframes()
-
-
-    cppclass ccColor3BWapper(CCObject):
-        const ccColor3B& getColor() const
-    ccColor3BWapper* ccColor3BWapper_create"cocos2d::extension::ccColor3BWapper::create"(const ccColor3B& color)
-        
-
-    enum:
-        kIntValue,
-        kFloatValue,
-        kBoolValue,
-        kUnsignedCharValue,
-        kStringValue,
-        kArrayValue
-
-    cppclass CCBValue(CCObject):
-        int getIntValue()
-        float getFloatValue()
-        bool getBoolValue()
-        unsigned char getByteValue()
-        const char* getStringValue()
-        CCArray *getArrayValue()
-        
-        int getType()
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(int nValue)
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(bool bValue)
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(float fValue)
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(unsigned char byte)
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(const char* pStr)
-    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(CCArray* pArr)
-
-
-    cppclass CCBKeyframe(CCObject):
-        CCBKeyframe()
-        # ~CCBKeyframe()
-        
-        CCObject* getValue()
-        void setValue(CCObject *pValue) # retain
-        
-        float getTime()
-        void setTime(float fTime)
-        
-        int getEasingType()
-        void setEasingType(int nEasingType)
-        
-        float getEasingOpt()
-        void setEasingOpt(float fEasingOpt)
-
-
-
-
+cdef extern:
     enum:
         kCCBPropTypePosition = 0,
         kCCBPropTypeSize,
@@ -163,6 +98,73 @@ cdef extern from "cocos2d.h" namespace "cocos2d":
     enum:
         kCCBScaleTypeAbsolute,
         kCCBScaleTypeMultiplyResolution
+
+
+cdef extern from "cocos-ext.h" namespace "cocos2d::extension":
+    cppclass CCBSequenceProperty(CCObject):
+        CCBSequenceProperty()
+        # ~CCBSequenceProperty()
+        
+        bool init()
+        
+        const char* getName()
+        void setName(const char* pName)
+        
+        int getType()
+        void setType(int nType)
+        
+        CCArray* getKeyframes()
+
+
+    cppclass ccColor3BWapper(CCObject):
+        const ccColor3B& getColor() const
+    ccColor3BWapper* ccColor3BWapper_create"cocos2d::extension::ccColor3BWapper::create"(const ccColor3B& color)
+        
+
+    enum:
+        kIntValue,
+        kFloatValue,
+        kBoolValue,
+        kUnsignedCharValue,
+        kStringValue,
+        kArrayValue
+
+    cppclass CCBValue(CCObject):
+        int getIntValue()
+        float getFloatValue()
+        bool getBoolValue()
+        unsigned char getByteValue()
+        const char* getStringValue()
+        CCArray *getArrayValue()
+        
+        int getType()
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(int nValue)
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(bool bValue)
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(float fValue)
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(unsigned char byte)
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(const char* pStr)
+    CCBValue* CCBValue_create"cocos2d::extension::CCBValue::create"(CCArray* pArr)
+
+
+    cppclass CCBKeyframe(CCObject):
+        CCBKeyframe()
+        # ~CCBKeyframe()
+        
+        CCObject* getValue()
+        void setValue(CCObject *pValue) # retain
+        
+        float getTime()
+        void setTime(float fTime)
+        
+        int getEasingType()
+        void setEasingType(int nEasingType)
+        
+        float getEasingOpt()
+        void setEasingOpt(float fEasingOpt)
+
+
+
+
 
 
     cppclass CCBFile(CCNode):
