@@ -7,10 +7,10 @@ cdef class CCTimer(CCObject):
     def timerWithTarget(cls, CallBack cb, fSeconds=None):
         cdef CCTimer o = cls()
         if fSeconds is None:
-            o._co = <cocoa.CCObject*>ccScheduler.CCTimer_timerWithTarget(&cb._co, 
+            o._co = <cocoa.CCObject*>ccScheduler.CCTimer_timerWithTarget(cb._co, 
                     cb.get_Schedule())
         else:
-            o._co = <cocoa.CCObject*>ccScheduler.CCTimer_timerWithTarget(&cb._co, 
+            o._co = <cocoa.CCObject*>ccScheduler.CCTimer_timerWithTarget(cb._co, 
                     cb.get_Schedule(), fSeconds)
         return o
 
@@ -35,13 +35,13 @@ cdef class CCTimer(CCObject):
     #     return <int>self.timer().getSelector()
 
     def initWithTarget(self, CallBack cb):
-        return self.timer().initWithTarget(&cb._co, cb.get_Schedule())
+        return self.timer().initWithTarget(cb._co, cb.get_Schedule())
 
     def initWithTarget(self, CallBack cb, 
             fSeconds=None, unsigned int nRepeat=0, float fDelay=0.0):
         if fSeconds is None:
-            return self.timer().initWithTarget(&cb._co, cb.get_Schedule())
-        return self.timer().initWithTarget(&cb._co, cb.get_Schedule(),
+            return self.timer().initWithTarget(cb._co, cb.get_Schedule())
+        return self.timer().initWithTarget(cb._co, cb.get_Schedule(),
                 fSeconds, nRepeat, fDelay)
 
     def initWithScriptHandler(self, int nHandler, float fSeconds):
@@ -64,17 +64,17 @@ cdef class CCScheduler(CCObject):
     def scheduleSelector(self, CallBack cb,
         float fInterval, repeat=None, delay=0.0, bool bPaused=False):
         if repeat is None:
-            self.scheduler().scheduleSelector(cb.get_Schedule(), &cb._co,
+            self.scheduler().scheduleSelector(cb.get_Schedule(), cb._co,
                     fInterval, bPaused)
         else:
-            self.scheduler().scheduleSelector(cb.get_Schedule(), &cb._co,
+            self.scheduler().scheduleSelector(cb.get_Schedule(), cb._co,
                     fInterval, repeat, delay, bPaused)
 
     def scheduleUpdateForTarget(self, CallBack cb, int nPriority, bool bPaused):
-        self.scheduler().scheduleUpdateForTarget(&cb._co, nPriority, bPaused)
+        self.scheduler().scheduleUpdateForTarget(cb._co, nPriority, bPaused)
 
     def unscheduleSelector(self, CallBack cb):
-        self.scheduler().unscheduleSelector(cb.get_Schedule(), &cb._co)
+        self.scheduler().unscheduleSelector(cb.get_Schedule(), cb._co)
 
     def unscheduleUpdateForTarget(self, CCObject pTarget):
         self.scheduler().unscheduleUpdateForTarget(pTarget._co)

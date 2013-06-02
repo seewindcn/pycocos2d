@@ -101,6 +101,8 @@ cdef extern:
 
 
 cdef extern from "cocos-ext.h" namespace "cocos2d::extension":
+    ctypedef int SEL_CCControlHandler
+    
     cppclass CCBSequenceProperty(CCObject):
         CCBSequenceProperty()
         # ~CCBSequenceProperty()

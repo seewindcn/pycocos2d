@@ -41,13 +41,13 @@ class CCBView(BaseView):
         
 
     def _ccb(self):
-        self.cb = CallBack(self.call_back)
+        self.ccbOwner = CCBuilderOwner(self.call_back)
         library = CCNodeLoaderLibrary.newDefaultCCNodeLoaderLibrary()
         reader = CCBReader()
         reader.new(library)
         reader.autorelease()
         reader.setCCBRootPath('ccb/')
-        o = reader.readNodeGraphFromFile('ccb/TestAni.ccbi', self.cb.getCallBack())
+        o = reader.readNodeGraphFromFile('ccb/TestAni.ccbi', self.ccbOwner)
         o.setPosition(self.winSize.width/2, self.winSize.height/2)
         reader.getAnimationManager().runAnimationsForSequenceNamed("wave")
         self.addChild(o)

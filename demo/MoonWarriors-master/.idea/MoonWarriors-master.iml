@@ -7,6 +7,12 @@
     <content url="file://$MODULE_DIR$/../../cocos2d/cc.h">
       <sourceFolder url="file://$MODULE_DIR$/../../cocos2d/cc.h" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../cocos2d/cc_ext.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../cocos2d/cc_ext.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../cocos2d/cc_ext.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../cocos2d/cc_ext.h" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../cocos2d/ccpy.cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../cocos2d/ccpy.cpp" isTestSource="false" />
     </content>

@@ -12,6 +12,7 @@
 		1BC5343861068F831A98870B /* cc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53769CD19CC406605BAFF /* cc.cpp */; };
 		1BC53932AE0D0F3F3AFB3232 /* libpython2.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC53929F5E2F54EFB6A9E06 /* libpython2.7.a */; };
 		1BC53C5BB1DA8046A4F19E2C /* greenlet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53810D84D3E697AE2642C /* greenlet.c */; };
+		1BC53F129074F34861D18DB9 /* cc_ext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC53290A84FFB8E08349306 /* cc_ext.cpp */; };
 		821B69BC1725248E004222A6 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 821B69571725248E004222A6 /* CDAudioManager.m */; };
 		821B69BD1725248E004222A6 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 821B695A1725248E004222A6 /* CDOpenALSupport.m */; };
 		821B69BE1725248E004222A6 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 821B695C1725248E004222A6 /* CocosDenshion.m */; };
@@ -305,6 +306,7 @@
 		1BC5324F26204DC9C0B1A7A7 /* unicodeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicodeobject.h; path = ../../../include/python2.7/unicodeobject.h; sourceTree = "<group>"; };
 		1BC5327753CD0245120CF2F9 /* dictobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dictobject.h; path = ../../../include/python2.7/dictobject.h; sourceTree = "<group>"; };
 		1BC5328858D653419F3464B2 /* moduleobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = moduleobject.h; path = ../../../include/python2.7/moduleobject.h; sourceTree = "<group>"; };
+		1BC53290A84FFB8E08349306 /* cc_ext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cc_ext.cpp; path = ../../../cocos2d/cc_ext.cpp; sourceTree = "<group>"; };
 		1BC532953A636B65F77071C1 /* pydebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pydebug.h; path = ../../../include/python2.7/pydebug.h; sourceTree = "<group>"; };
 		1BC53299AF0B1D30853B3CC2 /* cobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cobject.h; path = ../../../include/python2.7/cobject.h; sourceTree = "<group>"; };
 		1BC5329E397399BAC6980DD0 /* cStringIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cStringIO.h; path = ../../../include/python2.7/cStringIO.h; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 		1BC53CC194009EABB09CCB10 /* ucnhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucnhash.h; path = ../../../include/python2.7/ucnhash.h; sourceTree = "<group>"; };
 		1BC53D47D6243D07F24C2BBA /* cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cc.h; path = ../../../cocos2d/cc.h; sourceTree = "<group>"; };
 		1BC53D819BA9480EA58A5A7D /* py_curses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = py_curses.h; path = ../../../include/python2.7/py_curses.h; sourceTree = "<group>"; };
+		1BC53D865E067233EADF2D0F /* cc_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cc_ext.h; path = ../../../cocos2d/cc_ext.h; sourceTree = "<group>"; };
 		1BC53D9A4F688364D0FE749C /* listobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listobject.h; path = ../../../include/python2.7/listobject.h; sourceTree = "<group>"; };
 		1BC53DA2BE7E4E5820EFA93F /* pyctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyctype.h; path = ../../../include/python2.7/pyctype.h; sourceTree = "<group>"; };
 		1BC53DAE3E17EB609918F1AA /* traceback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = traceback.h; path = ../../../include/python2.7/traceback.h; sourceTree = "<group>"; };
@@ -1095,6 +1098,8 @@
 				1BC53715162FDA27A967173C /* ccpy.cpp */,
 				1BC53810D84D3E697AE2642C /* greenlet.c */,
 				1BC536049356AD7877C3EE59 /* include */,
+				1BC53290A84FFB8E08349306 /* cc_ext.cpp */,
+				1BC53D865E067233EADF2D0F /* cc_ext.h */,
 			);
 			name = py;
 			sourceTree = "<group>";
@@ -2492,6 +2497,7 @@
 				829E2CD717549AA1007B3150 /* Slot.cpp in Sources */,
 				829E2CD817549AA1007B3150 /* SlotData.cpp in Sources */,
 				829E2CD917549AA1007B3150 /* spine-cocos2dx.cpp in Sources */,
+				1BC53F129074F34861D18DB9 /* cc_ext.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

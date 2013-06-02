@@ -23,9 +23,6 @@ include "py/director.pxi"
 include "py/menu.pxi"
 include "py/nodes.pxi"
 include "py/cocosDenshion.pxi"
-#ifdef _CC_CCB_
-include "py/ccb.pxi"
-#endif
 
 
 cdef void _call_back(void* data, int t, cocoa.CCObject* var1, 
@@ -35,27 +32,32 @@ cdef void _call_back(void* data, int t, cocoa.CCObject* var1,
 
 
 cdef class CallBack:
-    cdef CCPyFunc _co
+    cdef CCPyFunc* _co
     cdef object caches, obj
 
     # cdef inline CCPyFunc* func(self):
     #     return <CCPyFunc*>self._co
     def __cinit__(self, obj=None):
-        # self._co.retain()
         self.init(obj)
 
     def __dealloc__(self):
-        # self._co.release()
-        pass
+        self._co.release()
+
+    cdef CCPyFunc* _new_CCPyFunc(self):
+        return new CCPyFunc()
 
     cdef init(self, object obj):
+        if hasattr(self, '_new_call_back'):
+            self._co = <CCPyFunc*><int>self._new_call_back()
+        else:
+            self._co = self._new_CCPyFunc()
         self.caches = PyDict_New()
         self._co.init(<void*>self, <call_back_func>&_call_back)
         self.obj = obj
 
     def getCallBack(self):
         cdef CCObject o = CCObject()
-        o._co = &self._co
+        o._co = self._co
         return o
 
     def reg(self, CCObject obj):
@@ -77,23 +79,24 @@ cdef class CallBack:
 
     cdef inline _call_obj(self, int t, cocoa.CCObject* var1, 
             void* var2, float var3):
-        try:
-            #use switch
-            if t == 0:#CB_SCHEDULE:
-                self.obj(var3)
-            elif t == 1:#CB_CallFunc:
-                self.obj()
-            elif t == 2:
-                self.obj(self._get_obj(var1, CCNode))
-            elif t == 3:#CB_CallFuncND
-                self.obj(self._get_obj(var1), <int>var2)
-            elif t in (4, 5, 7):#CB_CallFuncN:
-                self.obj(self._get_obj(var1))
-            elif t == 6:
-                self.obj(self._get_obj(var1, CCEvent))
-            return -1
-        except:
-            traceback.print_exc()
+        #use switch
+        if t == 0:#CB_SCHEDULE:
+            self.obj(var3)
+        elif t == 1:#CB_CallFunc:
+            self.obj()
+        elif t == 2:
+            self.obj(self._get_obj(var1, CCNode))
+        elif t == 3:#CB_CallFuncND
+            self.obj(self._get_obj(var1, CCNode), <int>var2)
+        elif t == 4:#CB_CallFuncO:
+            self.obj(self._get_obj(var1))
+        elif t == 5:#MenuHandler:
+            self.obj(self._get_obj(var1))
+        elif t == 6:
+            self.obj(self._get_obj(var1, CCEvent))
+        elif t == 7:#Compare:
+            self.obj(self._get_obj(var1))
+        return -1
 
     cdef inline _call_self(self, int t, cocoa.CCObject* var1,
             void* var2, float var3):
@@ -118,8 +121,13 @@ cdef class CallBack:
 
     cdef inline _call_back(self, int t, cocoa.CCObject* var1, 
             void* var2, float var3):
-        if self.obj is not None:
-            self._call_obj(t, var1, var2, var3)
+        try:
+            if self.obj is not None:
+                self._call_obj(t, var1, var2, var3)
+            else:
+                self._call_self(t, var1, var2, var3)
+        except:
+            traceback.print_exc()
 
     cdef inline cocoa.SEL_SCHEDULE get_Schedule(self):
         return self._co.get_Schedule()
@@ -208,6 +216,13 @@ def ccpClamp(CCPoint p, CCPoint min_inclusive, CCPoint max_inclusive):
     o = CCPoint()
     o._co = support.ccpClamp(p._co, min_inclusive._co, max_inclusive._co)
     return o
+
+
+#ifdef _CC_CCB_
+include "py/ccb.pxi"
+#endif
+
+
 
 #---------------------
 #---------------------

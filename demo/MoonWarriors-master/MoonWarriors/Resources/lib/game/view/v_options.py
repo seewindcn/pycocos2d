@@ -9,6 +9,11 @@ from game import config
 
 
 class OptionsView(BaseView):
+    def stop(self):
+        self.cb_setOptions = None
+        import gc
+        gc.collect()
+
     def _ui(self):
         self.cb_setOptions = CallBack(self.setOptions)
         winSize = self.winSize

@@ -70,6 +70,26 @@ kCCBScaleTypeAbsolute = ccb.kCCBScaleTypeAbsolute
 kCCBScaleTypeMultiplyResolution = ccb.kCCBScaleTypeMultiplyResolution
 
 
+cdef extern from "cc_ext.h":
+     cppclass CCBOwner(CCPyFunc):
+        ccb.SEL_CCControlHandler get_CCControlHandler()
+
+    
+
+
+cdef class CCBuilderOwner(CallBack):
+    cdef inline CCBOwner* owner(self):
+        return <CCBOwner*>self._co
+
+    # def __cinit__(self, obj=None):
+    #     co = new CCBOwner()
+    #     self.init(obj)
+
+    # def __dealloc__(self):
+    #     self._co.release()
+
+    def _new_call_back(self):
+        return <int>new CCBOwner()
 
 
 cdef class CCBSequenceProperty(CCObject):
@@ -329,38 +349,38 @@ cdef class CCBReader(CCObject):
     def getCCBRootPath(self):
         return self.reader().getCCBRootPath()
 
-    def readNodeGraphFromFile(self, pCCBFileName, CCObject pOwner=None, 
+    def readNodeGraphFromFile(self, pCCBFileName, CCBuilderOwner pOwner=None, 
             CCSize parentSize=None, cls=CCNode):
         cdef CCNode o = cls()
         if pOwner is None:
             o._co = <cocoa.CCObject*>self.reader().readNodeGraphFromFile(pCCBFileName)
         elif parentSize is None:
             o._co = <cocoa.CCObject*>self.reader().readNodeGraphFromFile(pCCBFileName,
-                    pOwner._co)
+                    pOwner.owner())
         else:
             o._co = <cocoa.CCObject*>self.reader().readNodeGraphFromFile(pCCBFileName,
-                    pOwner._co, parentSize._co)
+                    pOwner.owner(), parentSize._co)
 
         return o
     
-    def readNodeGraphFromData(self, CCData pData, CCObject pOwner, 
+    def readNodeGraphFromData(self, CCData pData, CCBuilderOwner pOwner, 
             CCSize parentSize, cls=CCNode):
         cdef CCNode o = cls()
         o._co = <cocoa.CCObject*>self.reader().readNodeGraphFromData(pData.data(),
-                pOwner._co, parentSize._co)
+                pOwner.owner(), parentSize._co)
    
     def createSceneWithNodeGraphFromFile(self, pCCBFileName, 
-            CCObject pOwner, CCSize parentSize, cls=CCScene):
+            CCBuilderOwner pOwner, CCSize parentSize, cls=CCScene):
         cdef CCScene o = cls()
         if pOwner is None:
             o._co = <cocoa.CCObject*>self.reader().createSceneWithNodeGraphFromFile(
                     pCCBFileName)
         elif parentSize is None:
             o._co = <cocoa.CCObject*>self.reader().createSceneWithNodeGraphFromFile(
-                    pCCBFileName, pOwner._co)
+                    pCCBFileName, pOwner.owner())
         else:
             o._co = <cocoa.CCObject*>self.reader().createSceneWithNodeGraphFromFile(
-                    pCCBFileName, pOwner._co, parentSize._co)
+                    pCCBFileName, pOwner.owner(), parentSize._co)
         return o
 
     # CCBMemberVariableAssigner* getCCBMemberVariableAssigner()
@@ -514,7 +534,7 @@ cdef class CCBAnimationManager(CCObject):
         self.mgr().runAnimationsForSequenceIdTweenDuration(nSeqId, fTweenDuraiton)
 
     def setAnimationCompletedCallback(self, CallBack cb):
-        self.mgr().setAnimationCompletedCallback(&cb._co, cb.get_CallFunc())
+        self.mgr().setAnimationCompletedCallback(cb._co, cb.get_CallFunc())
 
     def debug(self):
         self.mgr().debug()

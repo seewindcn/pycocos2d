@@ -1552,7 +1552,7 @@ cdef class CCCallFunc(CCActionInstant):
             self._create(cb)
 
     cdef _create(self, CallBack cb):
-        self._co = <cocoa.CCObject*>actions.CCCallFunc_create(&cb._co, cb.get_CallFunc())
+        self._co = <cocoa.CCObject*>actions.CCCallFunc_create(cb._co, cb.get_CallFunc())
         # cb.reg(self)
 
     def new(self):
@@ -1596,7 +1596,7 @@ cdef class CCCallFuncN(CCCallFunc):
             self._create(cb)
 
     cdef _create(self, CallBack cb):
-        self._co = <cocoa.CCObject*>actions.CCCallFuncN_create(&cb._co, cb.get_CallFuncN())
+        self._co = <cocoa.CCObject*>actions.CCCallFuncN_create(cb._co, cb.get_CallFuncN())
         # cb.reg(self)
 
     def new(self):
@@ -1627,7 +1627,7 @@ cdef class CCCallFuncND(CCCallFuncN):
         if data != 0:
             d = <void*>data
         self._co = <cocoa.CCObject*>actions.CCCallFuncND_create(
-                &cb._co, cb.get_CallFuncND(), d)
+                cb._co, cb.get_CallFuncND(), d)
         # cb.reg(self)
 
 cdef class CCCallFuncO(CCCallFunc):
@@ -1646,7 +1646,7 @@ cdef class CCCallFuncO(CCCallFunc):
 
     cdef _create1(self, CallBack cb, CCObject obj):
         self._co = <cocoa.CCObject*>actions.CCCallFuncO_create(
-                &cb._co, cb.get_CallFuncO(), obj._co)
+                cb._co, cb.get_CallFuncO(), obj._co)
         # cb.reg(self)
 
     def new(self):

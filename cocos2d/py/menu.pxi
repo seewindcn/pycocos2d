@@ -128,7 +128,7 @@ cdef class CCMenuItemLabel(CCMenuItem):
             o.set_co(<int>menu_nodes.CCMenuItemLabel_create(label.node()))
         else:
             o.set_co(<int>menu_nodes.CCMenuItemLabel_create(label.node(), 
-                    &cb._co, cb.get_MenuHandler()))
+                    cb._co, cb.get_MenuHandler()))
             # cb.reg(o)
         return o
 
@@ -233,7 +233,7 @@ cdef class CCMenuItemSprite(CCMenuItem):
                     normalSprite.node(),
                     selectedSprite.node(),
                     disabledSprite.node(),
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     )
         elif disabledSprite:
             o._co = <cocoa.CCObject*>menu_nodes.CCMenuItemSprite_create(
@@ -245,7 +245,7 @@ cdef class CCMenuItemSprite(CCMenuItem):
             o._co = <cocoa.CCObject*>menu_nodes.CCMenuItemSprite_create(
                     normalSprite.node(),
                     selectedSprite.node(),
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     )
         return o
 
@@ -311,13 +311,13 @@ cdef class CCMenuItemImage(CCMenuItemSprite):
         o = cls()
         if disabledImage and cb:
             o.set_co(<int>menu_nodes.CCMenuItemImage_create(normalImage, selectedImage,
-                    disabledImage, &cb._co, cb.get_MenuHandler()))
+                    disabledImage, cb._co, cb.get_MenuHandler()))
         elif disabledImage:
             o.set_co(<int>menu_nodes.CCMenuItemImage_create(normalImage, selectedImage,
                     disabledImage))
         elif cb:
             o.set_co(<int>menu_nodes.CCMenuItemImage_create(normalImage, selectedImage,
-                    &cb._co, cb.get_MenuHandler()))
+                    cb._co, cb.get_MenuHandler()))
         else:
             o.set_co(<int>menu_nodes.CCMenuItemImage_create(normalImage, selectedImage))
         return o
@@ -357,25 +357,25 @@ cdef class CCMenuItemToggle(CCMenuItem):
         cdef int l = len(args)
         if l == 0:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     NULL)
         elif l == 1:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     (<CCObject>args[0])._co, 
                     NULL)
         elif l == 2:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     (<CCObject>args[0])._co, 
                     (<CCObject>args[1])._co, 
                     NULL)
         elif l == 3:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     (<CCObject>args[0])._co, 
                     (<CCObject>args[1])._co, 
@@ -383,7 +383,7 @@ cdef class CCMenuItemToggle(CCMenuItem):
                     NULL)
         elif l == 4:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     (<CCObject>args[0])._co, 
                     (<CCObject>args[1])._co, 
@@ -392,7 +392,7 @@ cdef class CCMenuItemToggle(CCMenuItem):
                     NULL)
         elif l == 5:
             co = menu_nodes.CCMenuItemToggle_createWithTarget(
-                    &cb._co, cb.get_MenuHandler(),
+                    cb._co, cb.get_MenuHandler(),
                     item.item(), 
                     (<CCObject>args[0])._co, 
                     (<CCObject>args[1])._co, 
