@@ -14,7 +14,7 @@ enum{
 USING_NS_CC;
 USING_NS_CC_EXT;
 
-class CC_DLL CCBOwner: public CCPyFunc, CCBSelectorResolver
+class CC_DLL CCBOwner: public CCPyFunc, public CCBSelectorResolver
 {
 public:
     void CCControlHandler(cocos2d::CCObject*, CCControlEvent);
