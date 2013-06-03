@@ -25,15 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CCBSelectorResolver.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSelectorResolver.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cc_ext.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,19 +34,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cc_ext.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.cpp">
+      <file leaf-file-name="CCControl.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+            <state line="153" column="64" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CCControlLoader.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCControlLoader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCNodeLoader.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="336" column="0" selection-start="13174" selection-end="13174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+            <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.6923077">
               <folding />
             </state>
           </provider>
@@ -70,28 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCObject.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/cocoa/CCObject.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="22" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cc.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.h">
           <provider selected="true" editor-type-id="text-editor">
             <state line="42" column="19" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCNodeLoader.cpp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="835" column="0" selection-start="31584" selection-end="31584" vertical-scroll-proportion="0.9193246">
               <folding />
             </state>
           </provider>
@@ -129,9 +120,9 @@
         <option value="$PROJECT_DIR$/MoonWarriors/ios/main.m" />
         <option value="$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/pythonrun.c" />
         <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.cpp" />
-        <option value="$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py" />
         <option value="$PROJECT_DIR$/../../cocos2d/ccpy.cpp" />
         <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.h" />
+        <option value="$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py" />
       </list>
     </option>
   </component>
@@ -366,14 +357,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="188" y="22" width="1569" height="992" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20712695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.3418708" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.2884187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36191538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36191538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -446,40 +437,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp</url>
-          <line>814</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp</url>
-          <line>817</line>
-          <option name="timeStamp" value="96" />
+          <line>335</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="97" />
+      <option name="time" value="99" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBAnimationManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="614" column="43" selection-start="19201" selection-end="19201" vertical-scroll-proportion="0.7947826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBReader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="16" selection-start="4173" selection-end="4173" vertical-scroll-proportion="0.29715303">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/cocoa/CCObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="13" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouch.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="13" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.6729927">
@@ -515,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/cocoa/CCObject.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="22" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
@@ -550,6 +508,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSelectorResolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="779" selection-end="779" vertical-scroll-proportion="0.51282054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="58" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
@@ -557,16 +529,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSelectorResolver.h">
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+        <state line="336" column="0" selection-start="13174" selection-end="13174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCControlLoader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="835" column="0" selection-start="31584" selection-end="31584" vertical-scroll-proportion="0.9193246">
+        <state line="21" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="64" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.6923077">
           <folding />
         </state>
       </provider>
