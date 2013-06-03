@@ -96,7 +96,9 @@ cdef class CCBuilderOwner(CallBack):
     #     self._co.release()
 
     def _new_call_back(self):
-        return <int>new CCBOwner()
+        cdef CCBOwner* o = new CCBOwner()
+        o.initAssign(<assign_func>&_assign)
+        return <int>o
 
     cdef bool _assign(self, int t, cocoa.CCObject* var1, 
             const char* var2, void* var3):
