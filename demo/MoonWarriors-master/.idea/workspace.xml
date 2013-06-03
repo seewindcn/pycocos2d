@@ -25,55 +25,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cc_ext.h" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CCBReader.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBReader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="718" column="24" selection-start="20627" selection-end="20627" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCBMemberVariableAssigner.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBMemberVariableAssigner.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="21" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCNode.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/base_nodes/CCNode.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="13" selection-start="3916" selection-end="3916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cc_ext.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cc_ext.h" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="58" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="24" column="99" selection-start="432" selection-end="457" vertical-scroll-proportion="0.47007298">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCControl.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="64" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCControlLoader.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCControlLoader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCNodeLoader.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="336" column="0" selection-start="13174" selection-end="13174" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.6923077">
+            <state line="7" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ccpy.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
+      <file leaf-file-name="cc.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113583" column="0" selection-start="5153556" selection-end="5153556" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,16 +91,7 @@
       <file leaf-file-name="cc.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="19" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCBReader.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBReader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="23" selection-start="6920" selection-end="6920" vertical-scroll-proportion="0.0">
+            <state line="41" column="19" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,17 +112,17 @@
         <option value="$PROJECT_DIR$/MoonWarriors/libs/extensions/GUI/CCScrollView/CCScrollView.h" />
         <option value="$PROJECT_DIR$/../../lib/cocos2dx/include/ccTypes.h" />
         <option value="$PROJECT_DIR$/../../cocos2d/cc.cpp" />
-        <option value="$PROJECT_DIR$/../../cocos2d/cc.h" />
         <option value="$PROJECT_DIR$/../../lib/cocos2dx/CCDirector.cpp" />
         <option value="$PROJECT_DIR$/MoonWarriors/Classes/PauseLayer.cpp" />
         <option value="$PROJECT_DIR$/MoonWarriors/Classes/AppDelegate.cpp" />
         <option value="$PROJECT_DIR$/../../lib/cocos2dx/platform/CCFileUtils.h" />
         <option value="$PROJECT_DIR$/MoonWarriors/ios/main.m" />
         <option value="$PROJECT_DIR$/../../../../kivy/kivy-ios/tmp/Python-2.7.1/Python/pythonrun.c" />
-        <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.cpp" />
         <option value="$PROJECT_DIR$/../../cocos2d/ccpy.cpp" />
-        <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.h" />
         <option value="$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py" />
+        <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.h" />
+        <option value="$PROJECT_DIR$/../../cocos2d/cc_ext.cpp" />
+        <option value="$PROJECT_DIR$/../../cocos2d/cc.h" />
       </list>
     </option>
   </component>
@@ -196,68 +196,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoonWarriors" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ccb" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,14 +295,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="188" y="22" width="1569" height="992" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20712695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20712695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.3418708" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.2884187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36191538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.42650333" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320827" sideWeight="0.3585746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36191538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -372,7 +311,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -435,114 +373,11 @@
           <line>163</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp</url>
-          <line>335</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="99" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/touch_dispatcher/CCTouch.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="13" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.6729927">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/ExtensionMacros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.5927007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCInvocation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.4540146">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="57" selection-start="607" selection-end="607" vertical-scroll-proportion="0.49051094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/cocoa/CCObject.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="22" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBReader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="23" selection-start="6920" selection-end="6920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113583" column="0" selection-start="5153556" selection-end="5153556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSelectorResolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="779" selection-end="779" vertical-scroll-proportion="0.51282054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="0" selection-start="13174" selection-end="13174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCControlLoader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../lib/extensions/GUI/CCControlExtension/CCControl.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="64" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.0">
@@ -550,9 +385,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCControlLoader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.34265736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCNodeLoader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="0" selection-start="13114" selection-end="13114" vertical-scroll-proportion="0.3100233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/ccpy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113583" column="0" selection-start="5153556" selection-end="5153556" vertical-scroll-proportion="0.05944056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MoonWarriors/Resources/lib/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.6923077">
+        <state line="7" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSelectorResolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="718" column="24" selection-start="20627" selection-end="20627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSequenceProperty.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="490" selection-end="490" vertical-scroll-proportion="0.3857635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBSequenceProperty.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="26" selection-start="595" selection-end="595" vertical-scroll-proportion="0.6590126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBValue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="0.6540146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/cocos2dx/base_nodes/CCNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="13" selection-start="3916" selection-end="3916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/extensions/CCBReader/CCBMemberVariableAssigner.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="19" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cocos2d/cc_ext.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="99" selection-start="432" selection-end="457" vertical-scroll-proportion="0.47007298">
           <folding />
         </state>
       </provider>

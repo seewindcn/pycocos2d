@@ -9,7 +9,6 @@
 #include <typeinfo>
 //using namespace cocos2d;
 
-class CCNode;
 
 typedef void(*call_back_func)(void* cb, int type,
         void * var1,

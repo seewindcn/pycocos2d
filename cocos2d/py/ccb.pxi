@@ -71,10 +71,17 @@ kCCBScaleTypeMultiplyResolution = ccb.kCCBScaleTypeMultiplyResolution
 
 
 cdef extern from "cc_ext.h":
-     cppclass CCBOwner(CCPyFunc):
+    ctypedef int assign_func
+    cppclass CCBOwner(CCPyFunc):
         ccb.SEL_CCControlHandler get_CCControlHandler()
+        void initAssign(assign_func func)
 
     
+cdef bool _assign(void* data, int t, cocoa.CCObject* var1, 
+            const char* var2, void* var3):
+    cdef CCBuilderOwner obj = <CCBuilderOwner>data
+    return obj._assign(t, var1, var2, var3)
+
 
 
 cdef class CCBuilderOwner(CallBack):
@@ -90,6 +97,34 @@ cdef class CCBuilderOwner(CallBack):
 
     def _new_call_back(self):
         return <int>new CCBOwner()
+
+    cdef bool _assign(self, int t, cocoa.CCObject* var1, 
+            const char* var2, void* var3):
+        cdef str o2 = var2
+        cdef CCObject o1 = CCObject()
+        cdef CCNode o3_1
+        cdef CCBValue o3_2
+        o1._co = var1
+        if t == 0:#CB_ASSIGN_MEMBER
+            o3_1 = CCNode()
+            o3_1._co = <cocoa.CCObject*>var3
+            o3 = o3_1
+        elif t == 1:
+            o3_2 = CCBValue()
+            o3_2._co = <cocoa.CCObject*>var3
+            o3 = o3_2
+
+
+        try:
+            if self.obj is not None:
+                return self.obj(o1, o2, o3)
+            else:
+                return self.assign(o1, o2, o3)
+        except:
+            traceback.print_exc()
+            return False
+
+
 
 
 cdef class CCBSequenceProperty(CCObject):
